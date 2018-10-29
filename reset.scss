@@ -1,5 +1,5 @@
-@import '~/reset-css';
-@import '~/normalize.scss';
+@import './node_modules/reset-css/reset';
+@import './node_modules/normalize.scss/normalize';
 
 html {
     box-sizing: border-box;
