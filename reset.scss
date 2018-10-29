@@ -1,0 +1,82 @@
+@import '~/reset-css';
+@import '~/normalize.scss';
+
+html {
+    box-sizing: border-box;
+    font-feature-settings: "kern", "liga", "pnum";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    -ms-overflow-style: -ms-autohiding-scrollbar; // https://css-tricks.com/snippets/css/hide-scrollbar-in-edge-ie-1011/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img:not([width]),
+picture:not([width]) {
+    margin: 0;
+    width: 100%;
+}
+
+img[width],
+picture[width] {
+    margin: 0;
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+    display: block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    font-feature-settings: "kern", "liga", "tnum";
+    margin: 0;
+    width: 100%;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+}
+
+iframe {
+    border: 0;
+}
