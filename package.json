@@ -1,6 +1,6 @@
 {
   "name": "harsh-reset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An opinionated css reset for websites/webapps.",
   "main": "reset.scss",
   "style": "reset.scss",
